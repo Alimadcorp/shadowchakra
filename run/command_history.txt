@@ -1,0 +1,20 @@
+/effect clear
+/tick unfreeze
+/tick rate 20
+/time set
+/time set day
+/give @a shadowchakrajutsu:shadow_chakra
+/give @a ap
+/give @a minecraft:apple 64
+/give @a minecraft:diamond 64
+/setblock ~ ~ ~ minecraft:crafting_table
+/tick rate 500
+/fill ~-100 ~ ~-100 ~100 ~ ~100 minecraft:quartz_block
+/gamerule maxCommandChainLength 500000
+/fill ~-100 ~ ~-100 ~100 ~ ~100 minecraft:quartz_block
+/gamerule commandModificationBlockLimit 500000
+/fill ~-100 ~ ~-100 ~100 ~ ~100 minecraft:quartz_block
+/tick rate 20
+/tick freeze
+/tick unfreeze
+/summon minecraft:vindicator

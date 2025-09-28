@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowchakrajutsu",
+  "version": "${version}",
+  "name": "Shadow Chakra Jutsu",
+  "description": "Create physicial copies of yourself that maintains the Chakra; personality of the player.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/shadowchakrajutsu/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "co.alimad.client.shadowchakrajutsuDataGenerator"
+    ],
+    "client": [
+      "co.alimad.client.shadowchakrajutsuClient"
+    ],
+    "main": [
+      "co.alimad.shadowchakrajutsu"
+    ]
+  },
+  "mixins": [
+    "shadowchakrajutsu.mixins.json",
+    {
+      "config": "shadowchakrajutsu.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
