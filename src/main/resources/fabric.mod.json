@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "shadowchakrajutsu",
-  "version": "${version}",
+  "version": "1.21.8",
   "name": "Shadow Chakra Jutsu",
   "description": "Create physicial copies of yourself that maintains the Chakra; personality of the player.",
-  "authors": [],
+  "authors": [ "Alimad Modding", "ArmanIsLit" ],
   "contact": {},
   "license": "MIT",
   "icon": "assets/shadowchakrajutsu/icon.png",
