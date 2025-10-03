@@ -7,5 +7,7 @@ public class shadowchakrajutsu implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ModItems.initialize();
+        shadowchakraEffects.registerTickHandler();
     }
 }

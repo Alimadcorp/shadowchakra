@@ -5,8 +5,8 @@ Time: 2025-09-28 13:04:26
 Description: Ticking player
 
 java.lang.ExceptionInInitializerError
-	at knot//co.alimad.client.shadowchakraEffects.doSomething(shadowchakraEffects.java:22)
-	at knot//co.alimad.client.shadowchakraItem.finishUsing(shadowchakraItem.java:20)
+	at knot//co.alimad.shadowchakraEffects.doSomething(shadowchakraEffects.java:22)
+	at knot//co.alimad.shadowchakraItem.finishUsing(shadowchakraItem.java:20)
 	at knot//net.minecraft.item.ItemStack.finishUsing(ItemStack.java:412)
 	at knot//net.minecraft.entity.LivingEntity.consumeItem(LivingEntity.java:3435)
 	at knot//net.minecraft.server.network.ServerPlayerEntity.consumeItem(ServerPlayerEntity.java:1591)
@@ -41,8 +41,8 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Thread: Server thread
 Stacktrace:
-	at knot//co.alimad.client.shadowchakraEffects.doSomething(shadowchakraEffects.java:22)
-	at knot//co.alimad.client.shadowchakraItem.finishUsing(shadowchakraItem.java:20)
+	at knot//co.alimad.shadowchakraEffects.doSomething(shadowchakraEffects.java:22)
+	at knot//co.alimad.shadowchakraItem.finishUsing(shadowchakraItem.java:20)
 	at knot//net.minecraft.item.ItemStack.finishUsing(ItemStack.java:412)
 	at knot//net.minecraft.entity.LivingEntity.consumeItem(LivingEntity.java:3435)
 	at knot//net.minecraft.server.network.ServerPlayerEntity.consumeItem(ServerPlayerEntity.java:1591)

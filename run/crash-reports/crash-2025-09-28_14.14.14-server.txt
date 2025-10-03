@@ -5,7 +5,7 @@ Time: 2025-09-28 14:14:14
 Description: Ticking player
 
 java.lang.ExceptionInInitializerError
-	at knot//co.alimad.client.shadowchakraItem.finishUsing(shadowchakraItem.java:20)
+	at knot//co.alimad.shadowchakraItem.finishUsing(shadowchakraItem.java:20)
 	at knot//net.minecraft.item.ItemStack.finishUsing(ItemStack.java:412)
 	at knot//net.minecraft.entity.LivingEntity.consumeItem(LivingEntity.java:3435)
 	at knot//net.minecraft.server.network.ServerPlayerEntity.consumeItem(ServerPlayerEntity.java:1591)
@@ -30,7 +30,7 @@ Caused by: java.lang.IllegalStateException: Registry is already frozen (trying t
 	at knot//net.minecraft.registry.SimpleRegistry.add(SimpleRegistry.java:101)
 	at knot//net.minecraft.registry.Registry.registerReference(Registry.java:131)
 	at knot//net.minecraft.registry.Registry.registerReference(Registry.java:135)
-	at knot//co.alimad.client.shadowchakraEffects.<clinit>(shadowchakraEffects.java:15)
+	at knot//co.alimad.shadowchakraEffects.<clinit>(shadowchakraEffects.java:15)
 	... 20 more
 
 
@@ -40,7 +40,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Thread: Server thread
 Stacktrace:
-	at knot//co.alimad.client.shadowchakraItem.finishUsing(shadowchakraItem.java:20)
+	at knot//co.alimad.shadowchakraItem.finishUsing(shadowchakraItem.java:20)
 	at knot//net.minecraft.item.ItemStack.finishUsing(ItemStack.java:412)
 	at knot//net.minecraft.entity.LivingEntity.consumeItem(LivingEntity.java:3435)
 	at knot//net.minecraft.server.network.ServerPlayerEntity.consumeItem(ServerPlayerEntity.java:1591)
